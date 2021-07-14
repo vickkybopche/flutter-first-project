@@ -4,12 +4,13 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurpleAccent ,
+      
+     
       appBar: AppBar(
-        title: Text("MyApp"),
+        title: Text("Catalog App"),
       ),
       body:Center(
-          child: Text("Hello World"),
+          child: Text("Welcome to vs code Flutter"),
       ) ,
       drawer: Drawer(),
     );
