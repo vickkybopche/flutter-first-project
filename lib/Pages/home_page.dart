@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/widgets/drawer.dart';
+
 
 class HomePage extends StatelessWidget {
   @override
@@ -12,7 +14,7 @@ class HomePage extends StatelessWidget {
       body:Center(
           child: Text("Welcome to vs code Flutter"),
       ) ,
-      drawer: Drawer(),
+      drawer:MyDrawer(),
     );
   }
 }
