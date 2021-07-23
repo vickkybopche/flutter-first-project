@@ -33,6 +33,9 @@ class _LoginPageState extends State<LoginPage> {
           key: _formKey,
           child: Column(
             children: [
+               SizedBox(
+                height: 25,
+              ),
               Image.asset(
                 "assets/images/login.png",
                 fit: BoxFit.cover,
